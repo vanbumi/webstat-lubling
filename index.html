@@ -3,36 +3,88 @@
 <head>
 	<meta charset="UTF-8">
 	<title>WebstatLubling</title>
+	
+	<!--link css bootstrap.-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<style>
+		.margintop {
+			margin-top: 60px;
+		}
+	</style>
+	
 </head>
 <body>
-	<h1>Webstat Lubling Profile</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam tempora veniam id animi ratione rerum molestiae praesentium, eaque eligendi, laudantium, cum sapiente dolor a! Explicabo, ipsa quisquam consectetur nemo odit.</p>
-
-	<h2>Git command</h2>
 	
-	<div style="background: #000; color: white; padding: 10px 10px 10px 10px">		
-	<code>
-		git config --global username "vanbumi"
-		git config --user.email jsp.dio@gmail.com
-	</code>
-	<br>
-	<code>
-		git remote add origin linkxxxxxxxxx
-	</code>
-	<br>
-	<code>
-		git push -u origin master
-	</code>
-	<br>
-	<code>
-		git remote -v
-	</code>
-	<br>
-	<code>
-		git remote remove origin
-	</code>
-	<br>
+	<div class="container">
+	
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a class="navbar-brand" href="#">Carousel</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline mt-2 mt-md-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+
+		<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark margintop">
+			<div class="col-md-6 px-0">
+				<h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+				<p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+				<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+			</div>
+		</div>
+
+		<h1>Webstat Lubling Profile</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam tempora veniam id animi ratione rerum molestiae praesentium, eaque eligendi, laudantium, cum sapiente dolor a! Explicabo, ipsa quisquam consectetur nemo odit.</p>
+
+		<h2>Git command</h2>
+
+		<div style="background: #000; color: white; padding: 10px 10px 10px 10px">		
+		<code>
+			git config --global username "vanbumi"
+			git config --user.email jsp.dio@gmail.com
+		</code>
+		<br>
+		<code>
+			git remote add origin linkxxxxxxxxx
+		</code>
+		<br>
+		<code>
+			git push -u origin master
+		</code>
+		<br>
+		<code>
+			git remote -v
+		</code>
+		<br>
+		<code>
+			git remote remove origin
+		</code>
+		<br>
+		</div>
+	
 	</div>
+	
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	
 </body>
 </html>
